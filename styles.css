@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(4,1fr);
+    border: 2px solid black;
+}
+
+.header{
+    border: 2px solid black;
+
+}
+
+.sidebar{
+    border: 2px solid black;
+
+}
+
+.main-section{
+    border: 2px solid black;
+
+}
+
+.annoucements{
+    border: 2px solid black;
+
+}
+
+.trending{
+    border: 2px solid black;
+
+}

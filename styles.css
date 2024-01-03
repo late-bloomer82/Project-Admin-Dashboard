@@ -27,6 +27,29 @@ html, body{
 
 }
 
+
+.dashboard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.dashboard img{
+    margin-right: 10px;
+}
+
+.sidebar-container{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.dashboard-bottom{
+    margin-top: 50px;
+}
+
+
 .main-section{
     display: grid;
     border: 4px solid green;
